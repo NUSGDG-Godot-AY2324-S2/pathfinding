@@ -7,6 +7,8 @@
 [node name="Enemy" type="CharacterBody2D"]
 collision_layer = 4
 collision_mask = 3
+motion_mode = 1
+wall_min_slide_angle = 0.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_qol47")
